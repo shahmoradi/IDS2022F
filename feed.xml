@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-08-21T13:31:55-05:00</updated>
+<updated>2022-08-21T13:51:29-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -17,10 +17,10 @@
 
 
 <entry>
-  <title type="html"><![CDATA[Lecture 5: Machine Learning]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/5-ml"/>
-  <id>http:/IDS2022F/lecture/5-ml</id>
-  <published>2021-11-30T00:00:00-06:00</published>
+  <title type="html"><![CDATA[Lecture 0: Introduction to Data Science]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/0-intro-data-science"/>
+  <id>http:/IDS2022F/lecture/0-intro-data-science</id>
+  <published>2022-08-22T00:00:00-05:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -31,368 +31,14 @@
   
   <content type="html">
   
-    &lt;p&gt;This lecture aims at providing a brief overview of some important Machine Learning algorithms in Data Science.&lt;/p&gt;
+    &lt;p&gt;This lecture aims at providing a quick introduction to foundations of Data Science, the Data Science job market, and the Data Science program of UTA.&lt;/p&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/31c3vheefs8s42k/5.machine.learning.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/UTA-DataScience/DATA1301.2021.Fall/raw/main/0.introduction.pdf&quot; target=&quot;_blank&quot;&gt;intro-data-science&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/5-ml&quot;&gt;Lecture 5: Machine Learning&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 30, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 7: Machine Learning algorithms]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/7-ml-clustering"/>
-  <id>http:/IDS2022F/homework/7-ml-clustering</id>
-  <published>2021-11-30T00:00:00-06:00</published>
-  <updated>2021-11-30T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday Dec 6, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with clustering techniques.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-dbscan-online/clustering-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online experimentation with DBSCAN clustering technique&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/clustering-kmeans-vs-dbscan-online/clustering-kmeans-vs-dbscan-online&quot; target=&quot;_blank&quot;&gt;Online comparison of the Kmeans clustering algorithm with DBSCAN&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/7-ml-clustering&quot;&gt;Homework 7: Machine Learning algorithms&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 30, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 4: Cognitive Biases]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/4-cognitive.biases"/>
-  <id>http:/IDS2022F/lecture/4-cognitive.biases</id>
-  <published>2021-11-16T00:00:00-06:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This lecture aims at providing a brief overview of the role of Cognitive Biases in inference.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/pue4u9o4valh3rr/4.cognitive.biases.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;slides&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/4-cognitive.biases&quot;&gt;Lecture 4: Cognitive Biases&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 16, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 6: Prediction and Cognitive Biases]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/6-prediction-cognitive-biases"/>
-  <id>http:/IDS2022F/homework/6-prediction-cognitive-biases</id>
-  <published>2021-11-13T00:00:00-06:00</published>
-  <updated>2021-11-13T00:00:00-06:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday Nov 19, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with Scientific Prediction and Cognitive Biases that affect human mind.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/regression-predicting-future-global-land-temperature-excel&quot; target=&quot;_blank&quot;&gt;Regression: Predicting the global land temperature of Earth in 2050 from the past data: Choosing the best model&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt; (Except Part I, which you have already done in a previous HW).&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-how-many-animals-in-pond/puzzle-how-many-animals-in-pond&quot; target=&quot;_blank&quot;&gt;Puzzle: How many living creatures are in the pond&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/puzzle-matchstick-equation/puzzle-matchstick-equation&quot; target=&quot;_blank&quot;&gt;Puzzle: Matchstick Wrong Equation&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/6-prediction-cognitive-biases&quot;&gt;Homework 6: Prediction and Cognitive Biases&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 13, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 5: Logic and Probability Theory II]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/5-logic-probability-theory"/>
-  <id>http:/IDS2022F/homework/5-logic-probability-theory</id>
-  <published>2021-10-29T00:00:00-05:00</published>
-  <updated>2021-10-29T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday Nov 5, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with logical thinking and algebra.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-1d/logic-functions-1d&quot; target=&quot;_blank&quot;&gt;Logic functions with 1 input&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-2d/logic-functions-2d&quot; target=&quot;_blank&quot;&gt;Logic functions with 2 input&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-operations/logic-functions-operations&quot; target=&quot;_blank&quot;&gt;Logic functions in terms of logic functions&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-fundamental-operations/logic-fundamental-operations&quot; target=&quot;_blank&quot;&gt;The fundamental logical operators&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-bayes-rule-proof-venn-disgram/probability-bayes-rule-proof-venn-disgram&quot; target=&quot;_blank&quot;&gt;The proof of Bayes’ Rule via Venn diagram&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-correspondence-with-common-sense/probability-correspondence-with-common-sense&quot; target=&quot;_blank&quot;&gt;Probability Theory: correspondence with commonsense&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-schools-of-thought/probability-schools-of-thought&quot; target=&quot;_blank&quot;&gt;The major schools of thought in Probability Theory&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/5-logic-probability-theory&quot;&gt;Homework 5: Logic and Probability Theory II&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 29, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 4: Logic and Probability Theory I]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/4-logic"/>
-  <id>http:/IDS2022F/homework/4-logic</id>
-  <published>2021-10-15T00:00:00-05:00</published>
-  <updated>2021-10-15T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday October 22, 2020 1 PM&lt;/strong&gt;. This homework aims at giving you some experience with logical thinking and algebra.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name three pillars of Science.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name and briefly describe three different applications of Computational and Data Sciences.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-two-types-of-scientific-reasoning/logic/logic-two-types-of-scientific-reasoning&quot; target=&quot;_blank&quot;&gt;Name the two types of scientific reasoning&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-policeman-jewelry-burglar/logic/logic-policeman-jewelry-burglar&quot; target=&quot;_blank&quot;&gt;Policeman, jewelry, and burglar&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-implication/logic/logic-implication&quot; target=&quot;_blank&quot;&gt;Logical Implication&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-product-denial/logic/logic-product-denial&quot; target=&quot;_blank&quot;&gt;Logical product denial&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/4-logic&quot;&gt;Homework 4: Logic and Probability Theory I&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 15, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 3: Logic and Probability Theory]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/3-logic.probability"/>
-  <id>http:/IDS2022F/lecture/3-logic.probability</id>
-  <published>2021-10-11T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This lecture aims at providing a brief overview of Logic and Probability Theory, as well as Statistics.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/quafdu5po2wr0xx/3.data.science.history.logic.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Logic and Probability Theory&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/3-logic.probability&quot;&gt;Lecture 3: Logic and Probability Theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 11, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 3: Data Visualization]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/3-data-vis"/>
-  <id>http:/IDS2022F/homework/3-data-vis</id>
-  <published>2021-10-01T00:00:00-05:00</published>
-  <updated>2021-10-01T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday October 8, 2020 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with data visualization concepts and techniques.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;what are &lt;em&gt;aesthetics&lt;/em&gt; in data visualization? Name a few aesthetics that can appear in a data visualization.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name the two major classes of aesthetics.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name the two major types of data and provide an example for each category.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the common name for variables holding qualitative data?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Provide examples of &lt;em&gt;ordered&lt;/em&gt; and &lt;em&gt;unordered&lt;/em&gt; data.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What kinds of axes in a plot should be represented with the same units and grid size?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Describe an example scenario in which transforming the axes of the plot results in better visualizations.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What kind of data set can be best visualized in &lt;em&gt;polar coordinates&lt;/em&gt;?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name four different color scales and explain their most appropriate usage.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;What is wrong with the following visualization?
-    &lt;figure&gt;
-    &lt;img src=&quot;./4/wrong.png&quot; alt=&quot;wrong&quot; style=&quot;width:80%&quot; /&gt;
-&lt;/figure&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/coordinates-transformation/coordinates-transformation&quot; target=&quot;_blank&quot;&gt;Coordinates transformation in visualization&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt;.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-rain-sunshine/vis-excel-rain-sunlight&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation of the US states vs. sunshine&lt;/a&gt;.&lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/3-data-vis&quot;&gt;Homework 3: Data Visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 01, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 2: Data Visualization Techniques]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/2-data.vis"/>
-  <id>http:/IDS2022F/lecture/2-data.vis</id>
-  <published>2021-09-27T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This lecture aims at providing a brief overview of data visualization techniques.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.dropbox.com/s/mbvq5hzctpsb6r6/5.data.vis.pdf?dl=0&quot; target=&quot;_blank&quot;&gt;Data Visualization&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/2-data.vis&quot;&gt;Lecture 2: Data Visualization Techniques&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on September 27, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 2: Programming History]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/2-programming-history"/>
-  <id>http:/IDS2022F/homework/2-programming-history</id>
-  <published>2021-09-20T00:00:00-05:00</published>
-  <updated>2021-09-20T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday September 24, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with computer hardware and software. Please write your answers in a &lt;code&gt;README.md&lt;/code&gt; file and push them all to &lt;code&gt;HW/2/&lt;/code&gt; folder of your repository on GitHub.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;What does ENIAC stand for?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why is everything represented by integers in computers?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the name of the fastest part of the computer memory?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the slowest storage device in computers (that is typically integrated with computers)?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the smallest unit of information in computer science?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
-
-    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
-
-    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
-
-    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
-&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/2-programming-history&quot;&gt;Homework 2: Programming History&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on September 20, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/0-intro-data-science&quot;&gt;Lecture 0: Introduction to Data Science&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 22, 2022.&lt;/p&gt;</content>
 </entry>
 
 
@@ -400,8 +46,8 @@
   <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/1-vcs"/>
   <id>http:/IDS2022F/homework/1-vcs</id>
-  <published>2021-09-01T00:00:00-05:00</published>
-  <updated>2021-09-01T00:00:00-05:00</updated>
+  <published>2022-08-22T00:00:00-05:00</published>
+  <updated>2022-08-22T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2022F</uri>
@@ -410,7 +56,7 @@
   
   <content type="html">
   
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday September 10, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience on how to work with Git and GitHub.&lt;/p&gt;
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday September 2, 2021 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience on how to work with Git and GitHub.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub &lt;strong&gt;ONLY part 1&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
@@ -431,60 +77,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
 &lt;/ol&gt;
 
   
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on September 01, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 1: Programming history]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/1-programming-history"/>
-  <id>http:/IDS2022F/lecture/1-programming-history</id>
-  <published>2021-08-30T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This lecture aims at providing a brief history of the development of computers and computer programming languages and their mutual interaction with rapid developments in natural sciences in the 20th century.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;Version Control System&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/1-programming-history&quot;&gt;Lecture 1: Programming history&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 30, 2021.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Lecture 0: Introduction to Data Science]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/0-intro-data-science"/>
-  <id>http:/IDS2022F/lecture/0-intro-data-science</id>
-  <published>2021-08-27T00:00:00-05:00</published>
-  <updated>0000-00-00T00:00:00-00:00</updated>
-  
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;This lecture aims at providing a quick introduction to foundations of Data Science, the Data Science job market, and the Data Science program of UTA.&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://github.com/UTA-DataScience/DATA1301.2021.Fall/raw/main/0.introduction.pdf&quot; target=&quot;_blank&quot;&gt;intro-data-science&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/0-intro-data-science&quot;&gt;Lecture 0: Introduction to Data Science&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 27, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/1-vcs&quot;&gt;Homework 1: Version Control Using Git and Github&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 22, 2022.&lt;/p&gt;</content>
 </entry>
 
 
@@ -492,8 +85,8 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
   <title type="html"><![CDATA[Announcement 0: Student-professor connection day]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/announcement/0-student-professor-connection-day"/>
   <id>http:/IDS2022F/announcement/0-student-professor-connection-day</id>
-  <published>2021-08-25T00:00:00-05:00</published>
-  <updated>2021-08-25T00:00:00-05:00</updated>
+  <published>2022-08-22T00:00:00-05:00</published>
+  <updated>2022-08-22T00:00:00-05:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2022F</uri>
@@ -847,7 +440,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
 
 
   
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 25, 2021.&lt;/p&gt;</content>
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 22, 2022.&lt;/p&gt;</content>
 </entry>
 
 </feed>

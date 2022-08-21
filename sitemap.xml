@@ -48,55 +48,11 @@
 
     
     <url>
-        <loc>/IDS2022F/lecture/5-ml</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/7-ml-clustering</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/lecture/4-cognitive.biases</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/6-prediction-cognitive-biases</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/5-logic-probability-theory</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/4-logic</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/lecture/3-logic.probability</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/3-data-vis</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/lecture/2-data.vis</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/homework/2-programming-history</loc>
+        <loc>/IDS2022F/lecture/0-intro-data-science</loc>
     </url>
     
     <url>
         <loc>/IDS2022F/homework/1-vcs</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/lecture/1-programming-history</loc>
-    </url>
-    
-    <url>
-        <loc>/IDS2022F/lecture/0-intro-data-science</loc>
     </url>
     
     <url>
