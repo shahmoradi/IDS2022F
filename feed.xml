@@ -7,13 +7,40 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-08-24T11:45:25-05:00</updated>
+<updated>2022-08-29T12:37:00-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Lecture 1: Programming history]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/1-programming-history"/>
+  <id>http:/IDS2022F/lecture/1-programming-history</id>
+  <published>2022-08-31T00:00:00-05:00</published>
+  <updated>0000-00-00T00:00:00-00:00</updated>
+  
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;This lecture aims at providing a brief history of the development of computers and computer programming languages and their mutual interaction with rapid developments in natural sciences in the 20th century.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;Version Control System&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/lecture/1-programming-history&quot;&gt;Lecture 1: Programming history&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 31, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -56,7 +83,7 @@
   
   <content type="html">
   
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday September 2, 2022 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience on how to work with Git and GitHub.&lt;/p&gt;
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Friday September 9, 2022 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience on how to work with Git and GitHub.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vcs-using-git-github/vcs-using-git-github#problem-part-1&quot; target=&quot;_blank&quot;&gt;Version-control using Git and GitHub &lt;strong&gt;ONLY part 1&lt;/strong&gt;&lt;/a&gt;.&lt;/li&gt;
