@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-09-19T08:58:13-05:00</updated>
+<updated>2022-09-19T09:23:13-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -42,9 +42,15 @@ The following figure illustrates the grade distribution for this quiz.
 &lt;/figure&gt;
 --&gt;
 
-&lt;p&gt;This quiz aims at testing your basic knowledge of Version Control System and some topics discussed in the history of Data Science.&lt;br /&gt;
-Don’t forget to push your answers to your remote repository by the end of quiz time.&lt;br /&gt;
+&lt;p&gt;This quiz aims at testing your basic knowledge of Version Control System and some topics discussed in the history of Data Science. 
+Don’t forget to push your answers to your remote repository by the end of quiz time. 
 Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;This quiz is open-lecture&lt;/strong&gt;, however, you are &lt;strong&gt;not&lt;/strong&gt; allowed to consult other resources or people.&lt;br /&gt;
+Despite the length of the quiz, many of the answers are brief, sometimes a simple &lt;code&gt;YES&lt;/code&gt; or &lt;code&gt;NO&lt;/code&gt;, 
+so do not elaborate excessively on a particular question. Instead, try to answer all question briefly and correctly.&lt;/p&gt;
+
+&lt;p&gt;You have 50 minutes to submit your answers for this quiz, except those who have prior permission for an extra 25 minutes extended time.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -53,12 +59,13 @@ Push all your answers to &lt;strong&gt;quiz/1/&lt;/strong&gt; folder in your Git
 
 &lt;ol&gt;
   &lt;li&gt;
-    &lt;p&gt;The first question guides you to create a &lt;code&gt;README.md&lt;/code&gt; within the 
-Create a subfolder named &lt;code&gt;1&lt;/code&gt; within the &lt;code&gt;quiz&lt;/code&gt; folder that you have already created in your GitHub project as part of homework &lt;code&gt;1&lt;/code&gt; and create a &lt;code&gt;README.md&lt;/code&gt; file in this subfolder.&lt;/p&gt;
+    &lt;p&gt;Create a &lt;code&gt;README.md&lt;/code&gt; within a subfolder named &lt;code&gt;1&lt;/code&gt; within the &lt;code&gt;quiz&lt;/code&gt; folder that you have already created in your GitHub project as part of homework 1. 
+This &lt;code&gt;README.md&lt;/code&gt; file will contain the rest of your answers to the following questions. 
+Once you write your answers to all questions in this file, &lt;strong&gt;commit&lt;/strong&gt; this file to your GitHub project before quiz ends at 9:50 AM.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Recall from our lectures that we typically name our read-me files &lt;code&gt;README.md&lt;/code&gt; on GitHub.&lt;br /&gt;
-What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;code&gt;.md.&lt;/code&gt; extension for README files on GitHub?&lt;/p&gt;
+What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;code&gt;.md&lt;/code&gt; extension for README files on GitHub?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Does the &lt;code&gt;git&lt;/code&gt; software index and track &lt;strong&gt;empty&lt;/strong&gt; folders in your project?&lt;/p&gt;
@@ -67,13 +74,19 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
     &lt;p&gt;Does every Git project have a &lt;code&gt;.git&lt;/code&gt; folder?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What is the purpose of the &lt;code&gt;.git&lt;/code&gt; folder in&lt;/p&gt;
+    &lt;p&gt;What is the purpose of the &lt;code&gt;.git&lt;/code&gt; folder in Git projects?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;cd&lt;/code&gt; do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;ls -a&lt;/code&gt; do?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does the Linux Bash command &lt;code&gt;pwd&lt;/code&gt; do?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name four newly emerging branches of science that are growing exponentially fast with respect to the traditional fields of science.&lt;/p&gt;
@@ -97,9 +110,6 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
     &lt;p&gt;What is Git and how is it different from GitHub?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What is SSH?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
     &lt;p&gt;What does &lt;code&gt;git status&lt;/code&gt; command do?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
@@ -109,28 +119,37 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
     &lt;p&gt;What does &lt;code&gt;git pull&lt;/code&gt; command do?&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;What does &lt;code&gt;git log&lt;/code&gt; command do?&lt;/p&gt;
+    &lt;p&gt;Name three major modern pillars of science.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Which of the following Git commands can add all the &lt;strong&gt;new&lt;/strong&gt; and &lt;strong&gt;modified-existing&lt;/strong&gt; files to the staging area? choose all that apply.&lt;br /&gt;
-&lt;br /&gt;
-(A) &lt;code&gt;git add -A&lt;/code&gt;&lt;br /&gt;
-(B) &lt;code&gt;git add --A&lt;/code&gt;&lt;br /&gt;
-(C) &lt;code&gt;git add -all&lt;/code&gt;&lt;br /&gt;
-(D) &lt;code&gt;git add --all&lt;/code&gt;&lt;br /&gt;
-(E) &lt;code&gt;git add -u&lt;/code&gt;&lt;br /&gt;
-(F) &lt;code&gt;git add .&lt;/code&gt;&lt;br /&gt;
-(G) &lt;code&gt;git add .; git add -u&lt;/code&gt;&lt;br /&gt;
-(H) &lt;code&gt;git add .; git add --u&lt;/code&gt;&lt;br /&gt;
-(I) &lt;code&gt;git add -u; git add .&lt;/code&gt;&lt;br /&gt;
-(J) &lt;code&gt;git add --u; git add .&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;Name three major modern applications of computational and data sciences.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;Which of the following Git commands &lt;strong&gt;both&lt;/strong&gt; stages and commits &lt;strong&gt;only modified and deleted files&lt;/strong&gt; but &lt;strong&gt;NOT&lt;/strong&gt; the &lt;em&gt;new files&lt;/em&gt; added to the repository since the last commit. Choose all that apply.&lt;br /&gt;
-&lt;br /&gt;
-(A) &lt;code&gt;git commit&lt;/code&gt;&lt;br /&gt;
-(B) &lt;code&gt;git commit -a&lt;/code&gt;&lt;br /&gt;
-(C) &lt;code&gt;git commit -am&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;What is Markdown?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you make a text boldface in Markdown?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;How do you make a text italic in Markdown?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the Git command to initialize an empty git project on your local system?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What was the name of the first digital computer? (an abbreviation is good enough)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When was the first digital computer built? (an approximate decade is good enough)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Where was the first digital computer built? (the name of the country is good enough)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three major components of the field of Data Science?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;You are hopefully on track to become a Data Scientist. Recalling our discussion in class, how would you best define a Data Scientist?&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
