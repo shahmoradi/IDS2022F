@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-09-15T14:47:04-05:00</updated>
+<updated>2022-09-18T23:05:54-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -142,7 +142,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
 &lt;/div&gt;
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -159,7 +159,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -171,12 +171,12 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
         &lt;/a&gt;
         
         
-            &lt;figcaption&gt;What I imagined I'd do as a physicist&lt;/figcaption&gt;
+            &lt;figcaption&gt;What I imagined I&apos;d do as a physicist&lt;/figcaption&gt;
         
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -433,7 +433,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
 
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
@@ -448,7 +448,7 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
     &lt;/figure&gt;
 &lt;/div&gt;
 
-&lt;!-- include.path must be given relative to site.url, which is the project's root directory --&gt;
+&lt;!-- include.path must be given relative to site.url, which is the project&apos;s root directory --&gt;
 
 &lt;div style=&quot;display:block;text-align:center;margin-right:auto;margin-left:auto&quot;&gt;
     &lt;figure&gt;
