@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-09-19T09:22:42-05:00</updated>
+<updated>2022-09-20T10:23:23-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -20,8 +20,8 @@
   <title type="html"><![CDATA[Quiz 1: Intro. Data Science, Version Control Systems]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/quiz/1-intro-vcs"/>
   <id>http:/IDS2022F/quiz/1-intro-vcs</id>
-  <published>2022-09-19T00:00:00-05:00</published>
-  <updated>2022-09-19T00:00:00-05:00</updated>
+  <published>2022-09-19T00:00:00-06:00</published>
+  <updated>2022-09-19T00:00:00-06:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2022F</uri>
@@ -62,94 +62,192 @@ so do not elaborate excessively on a particular question. Instead, try to answer
     &lt;p&gt;Create a &lt;code&gt;README.md&lt;/code&gt; within a subfolder named &lt;code&gt;1&lt;/code&gt; within the &lt;code&gt;quiz&lt;/code&gt; folder that you have already created in your GitHub project as part of homework 1. 
 This &lt;code&gt;README.md&lt;/code&gt; file will contain the rest of your answers to the following questions. 
 Once you write your answers to all questions in this file, &lt;strong&gt;commit&lt;/strong&gt; this file to your GitHub project before quiz ends at 9:50 AM.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Watch the recordings of our lectures for instructions on how to do this.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Recall from our lectures that we typically name our read-me files &lt;code&gt;README.md&lt;/code&gt; on GitHub.&lt;br /&gt;
 What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;code&gt;.md&lt;/code&gt; extension for README files on GitHub?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+The abbreviation &lt;code&gt;md&lt;/code&gt; stands for the &lt;strong&gt;Markdown&lt;/strong&gt; language.&lt;br /&gt;
+GitHub attempts to process any file with the suffix &lt;code&gt;md&lt;/code&gt; as a Markdown-enabled text, and tries to display the rich-text resulting from the processing of the contents of the file instead of the plain text from the file.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Does the &lt;code&gt;git&lt;/code&gt; software index and track &lt;strong&gt;empty&lt;/strong&gt; folders in your project?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+NO.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Does every Git project have a &lt;code&gt;.git&lt;/code&gt; folder?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+YES.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the purpose of the &lt;code&gt;.git&lt;/code&gt; folder in Git projects?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+The &lt;code&gt;.git&lt;/code&gt; folder contains all information about a given Git project.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Write down the Git command that lists all Git commands for you.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;pre&gt;&lt;code class=&quot;language-bash&quot;&gt;$ git help -a
+&lt;/code&gt;&lt;/pre&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does the Linux Bash command &lt;code&gt;cd&lt;/code&gt; do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+It commands the Bash shell to change directory to another specified path.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does the Linux Bash command &lt;code&gt;ls -a&lt;/code&gt; do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+It lists all files and folders (including hidden files) in the current Bash path.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does the Linux Bash command &lt;code&gt;pwd&lt;/code&gt; do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+It displays the path to the current working directory in a Bash environment.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name four newly emerging branches of science that are growing exponentially fast with respect to the traditional fields of science.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+Neuroscience, Biomedical Science, Bioinformatics, Computational Physics, Data Science&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name and briefly describe the three different areas in a Git project.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Working directory&lt;/li&gt;
+      &lt;li&gt;Staging area&lt;/li&gt;
+      &lt;li&gt;Commit area&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is a Version Control System (VCS)? A brief explanation is enough.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+A software that enables tracking all changes in a project.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name four modern scientific tools or algorithms that have been growing exponentially fast in popularity over the past decades.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+Artificial Intelligence, MCMC, Machine Learning, Computers&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name 6 major benefits of using distributed VCS as opposed to not using any VCS at all for project indexing and maintenance.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#motivation&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name the three major historical classes of VCS.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#motivation&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is Git and how is it different from GitHub?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#motivation&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does &lt;code&gt;git status&lt;/code&gt; command do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#git-add-add-files-to-the-staging-area&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does &lt;code&gt;git push --all&lt;/code&gt; command do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#git-push-push-the-changes-in-local-repository-to-the-remote-repository&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does &lt;code&gt;git pull&lt;/code&gt; command do?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+See &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html#git-pull-pull-the-latest-project-revision-from-the-remote-to-the-local-repository&quot;&gt;this page&lt;/a&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name three major modern pillars of science.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+Experiment, theory, computation.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name three major modern applications of computational and data sciences.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+predictive computing, simulations, data-driven discovery.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is Markdown?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+A set of rules for text highlighting.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;How do you make a text boldface in Markdown?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+By sandwiching the text with double asterisk like &lt;code&gt;**boldface**&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;How do you make a text italic in Markdown?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+By sandwiching the text with asterisk like &lt;code&gt;*italic*&lt;/code&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the Git command to initialize an empty git project on your local system?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+&lt;code&gt;git init&lt;/code&gt;&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What was the name of the first digital computer? (an abbreviation is good enough)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+ENIAC&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;When was the first digital computer built? (an approximate decade is good enough)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+1947&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Where was the first digital computer built? (the name of the country is good enough)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+USA&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name the three major components of the field of Data Science?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+coding, statistics, domain field knowledge&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;You are hopefully on track to become a Data Scientist. Recalling our discussion in class, how would you best define a Data Scientist?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;  &lt;br /&gt;
+Data scientist is someone who knows more coding than a statistician and domain expert, 
+knows more statistics than a computer scientist and domain expert, 
+and knows more about domain fields than a computer scientist and statistician.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
@@ -163,7 +261,7 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
   <title type="html"><![CDATA[Lecture 1: Programming history]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/1-programming-history"/>
   <id>http:/IDS2022F/lecture/1-programming-history</id>
-  <published>2022-08-31T00:00:00-05:00</published>
+  <published>2022-08-31T00:00:00-06:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -190,7 +288,7 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
   <title type="html"><![CDATA[Lecture 0: Introduction to Data Science]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/lecture/0-intro-data-science"/>
   <id>http:/IDS2022F/lecture/0-intro-data-science</id>
-  <published>2022-08-22T00:00:00-05:00</published>
+  <published>2022-08-22T00:00:00-06:00</published>
   <updated>0000-00-00T00:00:00-00:00</updated>
   
   <author>
@@ -216,8 +314,8 @@ What does &lt;code&gt;.md&lt;/code&gt; stand for? Why we do prefer to use &lt;co
   <title type="html"><![CDATA[Homework 1: Version Control Using Git and Github]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/1-vcs"/>
   <id>http:/IDS2022F/homework/1-vcs</id>
-  <published>2022-08-22T00:00:00-05:00</published>
-  <updated>2022-08-22T00:00:00-05:00</updated>
+  <published>2022-08-22T00:00:00-06:00</published>
+  <updated>2022-08-22T00:00:00-06:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2022F</uri>
@@ -255,8 +353,8 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
   <title type="html"><![CDATA[Announcement 0: Student-professor connection day]]></title>
   <link rel="alternate" type="text/html" href="http:/IDS2022F/announcement/0-student-professor-connection-day"/>
   <id>http:/IDS2022F/announcement/0-student-professor-connection-day</id>
-  <published>2022-08-22T00:00:00-05:00</published>
-  <updated>2022-08-22T00:00:00-05:00</updated>
+  <published>2022-08-22T00:00:00-06:00</published>
+  <updated>2022-08-22T00:00:00-06:00</updated>
   <author>
     <name>Amir Shahmoradi</name>
     <uri>http:/IDS2022F</uri>
