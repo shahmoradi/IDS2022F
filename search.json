@@ -38,6 +38,14 @@
 		  "url"        : "/IDS2022F/announcement/0-student-professor-connection-day",
 		  "date"       : "2022-08-22 00:00:00 -0600",
 		  "shortdate"  : "August 22, 2022"
+		} ,
+	
+		{
+		  "title"      : "Homework 2: Programming History",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/homework/2-programming-history",
+		  "date"       : "2021-09-20 00:00:00 -0600",
+		  "shortdate"  : "September 20, 2021"
 		} 
 	
 ]

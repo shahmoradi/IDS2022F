@@ -17,6 +17,11 @@ callback([
   } ,
 
   {
+    "text": "Homework 2: Programming History",
+    "href": "/IDS2022F/homework/2-programming-history"
+  } ,
+
+  {
     "text": "Homework 1: Version Control Using Git and Github",
     "href": "/IDS2022F/homework/1-vcs"
   } ,
