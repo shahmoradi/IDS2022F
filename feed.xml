@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-09-28T11:03:14-05:00</updated>
+<updated>2022-10-02T12:52:32-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -272,11 +272,14 @@ and knows more about domain fields than a computer scientist and statistician.&l
   
   <content type="html">
   
-    &lt;p&gt;This lecture aims at providing a brief history of the development of computers and computer programming languages and their mutual interaction with rapid developments in natural sciences in the 20th century.&lt;/p&gt;
+    &lt;p&gt;This lecture aims at providing a brief history of the development of computers and computer programming 
+languages and their mutual interaction with rapid developments in natural sciences in the 20th century.&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/version-control-system/version-control-system.html&quot; target=&quot;_blank&quot;&gt;Version Control System&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/programming-history.html&quot; target=&quot;_blank&quot;&gt;programming history&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-hardware/computer-hardware.html&quot; target=&quot;_blank&quot;&gt;Computer hardware&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/computer-programming/computer-programming.html#the-contents-of-a-computer-program&quot; target=&quot;_blank&quot;&gt;Computer programs&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
   
