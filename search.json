@@ -1,9 +1,25 @@
 [
 	
 		{
+		  "title"      : "Lecture 2: Data Visualization Techniques",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/lecture/2-data.vis",
+		  "date"       : "2022-10-05 00:00:00 -0500",
+		  "shortdate"  : "October 05, 2022"
+		} ,
+	
+		{
 		  "title"      : "Quiz 2: Programming History",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/quiz/2-prog-hist",
+		  "date"       : "2022-10-03 00:00:00 -0500",
+		  "shortdate"  : "October 03, 2022"
+		} ,
+	
+		{
+		  "title"      : "Homework 3: Data Visualization",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/homework/3-data-vis",
 		  "date"       : "2022-10-03 00:00:00 -0500",
 		  "shortdate"  : "October 03, 2022"
 		} ,
