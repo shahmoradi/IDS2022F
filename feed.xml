@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-10-07T10:10:15-05:00</updated>
+<updated>2022-10-14T13:23:43-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -296,7 +296,7 @@ Magnetic last decades, HHD last around 5-10 years.&lt;/p&gt;
   
   <content type="html">
   
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday October 17, 2020 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with data visualization concepts and techniques.&lt;/p&gt;
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Wednesday October 19, 2020 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with data visualization concepts and techniques.&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -352,7 +352,7 @@ Ordered/Unordered?
     &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
-    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel&lt;/a&gt;.&lt;/p&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-temp-honolulu-duluth/vis-temp-honolulu-duluth-excel&quot; target=&quot;_blank&quot;&gt;Visualizing and comparing the temperatures of Honolulu and Duluth via Excel (only parts 1 and 2)&lt;/a&gt;.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-rain-sunshine/vis-excel-rain-sunlight&quot; target=&quot;_blank&quot;&gt;Visualizing the average precipitation of the US states vs. sunshine&lt;/a&gt;.&lt;/li&gt;
 &lt;/ol&gt;
