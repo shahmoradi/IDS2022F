@@ -7,13 +7,133 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-10-14T13:23:43-05:00</updated>
+<updated>2022-10-19T03:01:46-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 3: Data Visualization]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/quiz/data-vis"/>
+  <id>http:/IDS2022F/quiz/data-vis</id>
+  <published>2022-10-19T00:00:00-05:00</published>
+  <updated>2022-10-19T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.
+
+The following figure illustrates the grade distribution for this quiz.
+&lt;figure&gt;
+    &lt;img src=&quot;http:/IDS2022F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Data Visualization.&lt;br /&gt;
+Don’t forget to push your answers to your remote repository by the end of quiz time.&lt;br /&gt;
+Push all your answers to &lt;strong&gt;quiz/3/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;what are &lt;em&gt;aesthetics&lt;/em&gt; in data visualization? Name a few aesthetics that can appear in a data visualization.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the two major classes of aesthetics.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between factors and levels?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the two major types of data and provide an example for each category.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the common name for variables holding data?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Provide examples of &lt;em&gt;ordered&lt;/em&gt; and &lt;em&gt;unordered&lt;/em&gt; data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What kinds of axes in a plot should be represented with the same units and grid size?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe an example scenario where transforming the axes of the plot results in better visualizations.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What kind of data set can be best visualized in &lt;em&gt;polar coordinates&lt;/em&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name four different color scales and explain their most appropriate usage.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Professional Data Scientists tend to avoid 3D plots in their visualizations. Why?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recall our class discussions on the kinds of data, for example, numerical vs. categorical.&lt;br /&gt;
+Describe an example dataset that could be classified as either numerical or categorical, depending on how it is represented.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is &lt;em&gt;color&lt;/em&gt; a categorical/unordered or quantitative/ordered aesthetics?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which kind of geographical map better represents the reality (order the maps from the best to the worst): Robinson, Cartesian, Winkel Triple?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Which one of the following three coordinates are valid and can be used to represent data?
+    &lt;figure&gt;
+    &lt;img src=&quot;./3/coordinates.png&quot; alt=&quot;data types&quot; style=&quot;width:100%&quot; /&gt;
+&lt;/figure&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-most-moderate-temp-city/vis-most-moderate-temp-city&quot; target=&quot;_blank&quot;&gt;US cities temperatures&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales&quot; target=&quot;_blank&quot;&gt;Colorscale classes&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-population-growth-tx-la/vis-population-growth-tx-la&quot; target=&quot;_blank&quot;&gt;US states population growth&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-ugly-graph/vis-ugly-graph&quot; target=&quot;_blank&quot;&gt;An ugly visualization&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-graph-wrong/vis-graph-wrong&quot; target=&quot;_blank&quot;&gt;A wrong visualization&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-excel-bar-plot/vis-excel-bar-plot&quot; target=&quot;_blank&quot;&gt;An Excel Bar plot&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly.png&quot; target=&quot;_blank&quot;&gt;This graph&lt;/a&gt; displays the global land temperature &lt;strong&gt;anomaly&lt;/strong&gt; of earth over the past 300 years. The vertical axis basically tells use how hot Earth has been in a given year compared to the average temperature during 1951-1980? Just by looking a this graph, do you think if the temperature of Earth will increase or decrease in the following decades? Approximately, how much hotter or cooler do you think Earth will be in 2050 with respect to the average temperature during 1951-1980 (the zero anomaly temperature)? Express your answer in units of Celsius.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(&lt;strong&gt;Extra Credit&lt;/strong&gt;). Recall our class discussion on numbers. Could you count all real or integer numbers that exist if you were given infinite time to do so? Why?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;(&lt;strong&gt;Extra Credit&lt;/strong&gt;). How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot like &lt;a href=&quot;https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/wordFreq.png&quot; target=&quot;_blank&quot;&gt;this one&lt;/a&gt;?&lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/quiz/data-vis&quot;&gt;Quiz 3: Data Visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 19, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
@@ -360,6 +480,86 @@ Ordered/Unordered?
 
   
   &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/3-data-vis&quot;&gt;Homework 3: Data Visualization&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on October 03, 2022.&lt;/p&gt;</content>
+</entry>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 2: Programming History]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/2-programming-history"/>
+  <id>http:/IDS2022F/homework/2-programming-history</id>
+  <published>2022-09-20T00:00:00-05:00</published>
+  <updated>2022-09-20T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday October 3, 2022 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with computer hardware and software. Please write your answers in a &lt;code&gt;README.md&lt;/code&gt; file and push them all to &lt;code&gt;HW/2/&lt;/code&gt; folder of your repository on GitHub.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does ENIAC stand for?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why is everything represented by integers in computers?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the name of the fastest part of the computer memory?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the slowest storage device in computers (that is typically integrated with computers)?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the smallest unit of information in computer science?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
+
+    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
+
+    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
+
+    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
+&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/2-programming-history&quot;&gt;Homework 2: Programming History&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on September 20, 2022.&lt;/p&gt;</content>
 </entry>
 
 
@@ -1059,86 +1259,6 @@ Inside the &lt;code&gt;hw&lt;/code&gt; folder, create another folder named &lt;c
 
   
   &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/announcement/0-student-professor-connection-day&quot;&gt;Announcement 0: Student-professor connection day&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on August 22, 2022.&lt;/p&gt;</content>
-</entry>
-
-
-<entry>
-  <title type="html"><![CDATA[Homework 2: Programming History]]></title>
-  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/2-programming-history"/>
-  <id>http:/IDS2022F/homework/2-programming-history</id>
-  <published>2021-09-20T00:00:00-05:00</published>
-  <updated>2021-09-20T00:00:00-05:00</updated>
-  <author>
-    <name>Amir Shahmoradi</name>
-    <uri>http:/IDS2022F</uri>
-    <email>shahmoradi@utexas.edu</email>
-  </author>
-  
-  <content type="html">
-  
-    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday October 3, 2022 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with computer hardware and software. Please write your answers in a &lt;code&gt;README.md&lt;/code&gt; file and push them all to &lt;code&gt;HW/2/&lt;/code&gt; folder of your repository on GitHub.&lt;/p&gt;
-
-&lt;ol&gt;
-  &lt;li&gt;
-    &lt;p&gt;What does ENIAC stand for?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Why is everything represented by integers in computers?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the name of the fastest part of the computer memory?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the slowest storage device in computers (that is typically integrated with computers)?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What is the smallest unit of information in computer science?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) What is the closest programming language to machine code (i.e., binary code)?&lt;/p&gt;
-
-    &lt;p&gt;(B) Does it need interpretation in order to become machine-comprehensible?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name the oldest high-level programming language that is still in active daily use.&lt;/p&gt;
-
-    &lt;p&gt;(B) Approximately how many decades is it old? ($\pm15$ years is acceptable answer. the decade it was created is also an acceptable answer)&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;(A) Name a second-generation programming language.&lt;/p&gt;
-
-    &lt;p&gt;(B) Which language-generation are Fortran, C, C++, MATLAB, Python, R?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;In what decades C, C++, and MATLAB/Python were created, respectively?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name an ancestor programming language of C.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of C++.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Name a programming language ancestor of MATLAB and a programming language ancestor of Python.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;What are the three common types of errors in computer programs? Provide an example for each category.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Suppose you write a program that has memory leak. What type of programming error you dealing with?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; What are the three fundamental components of a Turing-complete language?&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Extra credit:&lt;/strong&gt; How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot?&lt;br /&gt;
-&lt;strong&gt;Hint&lt;/strong&gt;: Recall our discussion of the ENAIC project and the relative frequency of keywords such as “computer” in our programming.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ol&gt;
-
-
-  
-  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/2-programming-history&quot;&gt;Homework 2: Programming History&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on September 20, 2021.&lt;/p&gt;</content>
 </entry>
 
 </feed>

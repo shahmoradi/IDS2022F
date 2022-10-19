@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 3: Data Visualization",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/quiz/data-vis",
+		  "date"       : "2022-10-19 00:00:00 -0500",
+		  "shortdate"  : "October 19, 2022"
+		} ,
+	
+		{
 		  "title"      : "Lecture 2: Data Visualization Techniques",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/lecture/2-data.vis",
@@ -22,6 +30,14 @@
 		  "url"        : "/IDS2022F/homework/3-data-vis",
 		  "date"       : "2022-10-03 00:00:00 -0500",
 		  "shortdate"  : "October 03, 2022"
+		} ,
+	
+		{
+		  "title"      : "Homework 2: Programming History",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/homework/2-programming-history",
+		  "date"       : "2022-09-20 00:00:00 -0500",
+		  "shortdate"  : "September 20, 2022"
 		} ,
 	
 		{
@@ -62,14 +78,6 @@
 		  "url"        : "/IDS2022F/announcement/0-student-professor-connection-day",
 		  "date"       : "2022-08-22 00:00:00 -0500",
 		  "shortdate"  : "August 22, 2022"
-		} ,
-	
-		{
-		  "title"      : "Homework 2: Programming History",
-		  "category"   : "",
-		  "url"        : "/IDS2022F/homework/2-programming-history",
-		  "date"       : "2021-09-20 00:00:00 -0500",
-		  "shortdate"  : "September 20, 2021"
 		} 
 	
 ]
