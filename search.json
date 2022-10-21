@@ -1,6 +1,22 @@
 [
 	
 		{
+		  "title"      : "Lecture 3: Logic and Probability Theory",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/lecture/3-logic.probability",
+		  "date"       : "2022-10-20 00:00:00 -0500",
+		  "shortdate"  : "October 20, 2022"
+		} ,
+	
+		{
+		  "title"      : "Homework 4: Logic and Probability Theory I",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/homework/4-logic",
+		  "date"       : "2022-10-20 00:00:00 -0500",
+		  "shortdate"  : "October 20, 2022"
+		} ,
+	
+		{
 		  "title"      : "Quiz 3: Data Visualization",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/quiz/data-vis",

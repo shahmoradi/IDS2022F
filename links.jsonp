@@ -17,6 +17,11 @@ callback([
   } ,
 
   {
+    "text": "Lecture 3: Logic and Probability Theory",
+    "href": "/IDS2022F/lecture/3-logic.probability"
+  } ,
+
+  {
     "text": "Lecture 2: Data Visualization Techniques",
     "href": "/IDS2022F/lecture/2-data.vis"
   } ,
@@ -29,6 +34,11 @@ callback([
   {
     "text": "Lecture 0: Introduction to Data Science",
     "href": "/IDS2022F/lecture/0-intro-data-science"
+  } ,
+
+  {
+    "text": "Homework 4: Logic and Probability Theory I",
+    "href": "/IDS2022F/homework/4-logic"
   } ,
 
   {
