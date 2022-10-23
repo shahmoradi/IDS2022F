@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>INTRODUCTION TO DATA SCIENCE - FALL 2021 &vert; DATA 1301 - FALL 2022 - MWF 9:00-9:50 - LIFE SCIENCE BUILDING (LS) 101 / MICROSOFT TEAMS VIRTUAL ROOM</title>
+<meta name="description" content="Introduction to Data Science - Fall 2021">
+<meta name="keywords" content="Computer, Programming, Amir, Shahmoradi, University, Texas, Arlington, Data, Science, Physics">
+
+
+
+<!-- Open Graph -->
+<meta property="og:locale" content="en_US">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Introduction to Data Science - Fall 2021">
+<meta property="og:description" content="Introduction to Data Science - Fall 2021">
+<meta property="og:url" content="/IDS2022F/">
+<meta property="og:site_name" content="DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room">
+<meta property="og:image" content="/IDS2022F/images/">
+
+
+
+
+
+<link rel="canonical" href="/IDS2022F/">
+<!-- <link href="/IDS2022F/feed.xml" type="application/atom+xml" rel="alternate" title="DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room Feed"> -->
+
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Open+Sans:400,600,300,800,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="/IDS2022F/assets/css/vendor/font-awesome.min.css">
+<link rel="stylesheet" href="/IDS2022F/assets/css/vendor/normalize.css">
+<link rel="stylesheet" href="/IDS2022F/assets/css/vendor/nprogress.css">
+<link rel="stylesheet" href="/IDS2022F/assets/css/vendor/foundation.min.css">
+<link rel="stylesheet" href="/IDS2022F/assets/css/style.css">
+<link rel="stylesheet" href="/IDS2022F/assets/css/post.css">
+
+<!--Mathjax LaTeX engine-->
+
+<style TYPE="text/css">
+code.has-jax {font: inherit; font-size: 100%; background: inherit; border: inherit;}
+</style>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [['$','$'], ['\\(','\\)']],
+        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] // removed 'code' entry
+    }
+});
+MathJax.Hub.Queue(function() {
+    var all = MathJax.Hub.getAllJax(), i;
+    for(i = 0; i < all.length; i += 1) {
+        all[i].SourceElement().parentNode.className += ' has-jax';
+    }
+});
+</script>
+<script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<!-- Icons -->
+<link rel="shortcut icon" href="/IDS2022F/favicon.ico">
+<!--
+<link rel="shortcut icon" href="/IDS2022F/favicon.png">
+-->
+
+
+<!-- prism
+<link href="/IDS2022F/assets/css/prismTwilight.css" rel="stylesheet" />
+<link href="/IDS2022F/assets/css/prismDefault.css" rel="stylesheet" />
+<link href="/IDS2022F/assets/css/prismCoy.css" rel="stylesheet" />
+-->
+<link href="/IDS2022F/assets/css/prismOkaidia.css" rel="stylesheet" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+</head>
+<body class="home-template" itemscope itemtype="https://schema.org/WebPage">
+<header class="notepad-site-head">
+    <div class="notepad-site-head-menu">
+        <a class="notepad-blog-logo" href="https://www.cdslab.org" target="_blank"><img src="/IDS2022F/images/logo.png" alt="cdslab.org" /></a>
+        
+        <div class="notepad-blog-menu">      
+            <div class="notepad-mobile-menu show-for-small">
+                <a href="#"><i class="fa fa-bars"></i></a>
+            </div>
+            <ul class="notepad-menu">
+                <li class="notepad-mobile-close-btn show-for-small text-right">
+                    <a href="#"><i class="fa fa-times"></i></a>
+                </li>
+                
+                    <li>
+                    <a href="/IDS2022F/">Home</a>
+                     </li>
+                
+                    <li>
+                    <a href="/IDS2022F/highlights">Highlights</a>
+                     </li>
+                
+                    <li>
+                    <a href="/IDS2022F/categories">Categories</a>
+                     </li>
+                
+                    <li>
+                    <a href="/IDS2022F/about">About</a>
+                     </li>
+                            
+                <li><a href="/IDS2022F/feed.xml" title="Atom/RSS feed"><i class="icon-rss"></i> Feed</a></li>
+            </ul>
+        </div>
+        <div class="clearfix"></div>
+    </div>
+    <div class="notepad-site-head-content">
+            <!--
+            -->
+            <!--
+        <div class="notepad-site-head-bg"></div>
+            -->
+        <h1 class="notepad-blog-title" >
+            <a href="https://www.uta.edu/science/" target="_blank"><img src="/IDS2022F/images/uta.png" width="200px" style="margin-top:-4rem;" ></a><br><br>
+            <span class="notepad-site-head-title-bg">
+                DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room
+            </span>
+        </h1>
+        <h2 class="notepad-blog-description" style="margin-bottom:-5rem;" >
+          Introduction to Data Science
+        </h2>
+            <!--
+            -->
+    </div>
+</header>
+
+
+<main class="notepad-content" role="main">
+
+            
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-20T00:00:00-05:00">
+                    <span class="day">
+                        20
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/lecture/3-logic.probability">
+                        Lecture 3: Logic and Probability Theory
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This lecture aims at providing a brief overview of Logic and Probability Theory, as well as Statistics.
+
+
+  Logic and Probability Theory
+
+</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#lecture" title="Other posts from the Lecture category">Lecture</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-20T00:00:00-05:00">
+                    <span class="day">
+                        20
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/homework/4-logic">
+                        Homework 4: Logic and Probability Theory I
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>♣ Due Date: Monday October 31, 2020 9 AM. This homework aims at giving you some experience with logical thinking and algebra. Name the three pillars of Science. Name and briefly describe three different applications of Computational and Data Sciences....</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#homework" title="Other posts from the Homework category">Homework</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-19T00:00:00-05:00">
+                    <span class="day">
+                        19
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/quiz/data-vis">
+                        Quiz 3: Data Visualization
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This quiz aims at testing your basic knowledge of Data Visualization. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to quiz/3/ folder in your Github project. what are...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#quiz" title="Other posts from the Quiz category">Quiz</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-05T00:00:00-05:00">
+                    <span class="day">
+                        05
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/lecture/2-data.vis">
+                        Lecture 2: Data Visualization Techniques
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>Lecture objectives: By the end of this lecture you will, learn all about the fundamentals of data visualization, learn all about the different kinds of visualizations, be able to identify the different elements of visualizations, be able to make simple...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#lecture" title="Other posts from the Lecture category">Lecture</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-03T00:00:00-05:00">
+                    <span class="day">
+                        03
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/quiz/2-prog-hist">
+                        Quiz 2: Programming History
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This quiz aims at testing your basic knowledge of programming history. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all your answers to quiz/2/ folder in your Github project. What is...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#quiz" title="Other posts from the Quiz category">Quiz</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-10-03T00:00:00-05:00">
+                    <span class="day">
+                        03
+                    </span>
+                    <span class="month-year">
+                        October 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/homework/3-data-vis">
+                        Homework 3: Data Visualization
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>♣ Due Date: Wednesday October 19, 2020 9:00 AM. This homework aims at giving you some experience with data visualization concepts and techniques. what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization....</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#homework" title="Other posts from the Homework category">Homework</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-09-20T00:00:00-05:00">
+                    <span class="day">
+                        20
+                    </span>
+                    <span class="month-year">
+                        September 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/homework/2-programming-history">
+                        Homework 2: Programming History
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>♣ Due Date: Monday October 3, 2022 9:00 AM. This homework aims at giving you some experience with computer hardware and software. Please write your answers in a README.md file and push them all to HW/2/ folder of your repository...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#homework" title="Other posts from the Homework category">Homework</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-09-19T00:00:00-05:00">
+                    <span class="day">
+                        19
+                    </span>
+                    <span class="month-year">
+                        September 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/quiz/1-intro-vcs">
+                        Quiz 1: Intro. Data Science, Version Control Systems
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This quiz aims at testing your basic knowledge of Version Control System and some topics discussed in the history of Data Science. Don’t forget to push your answers to your remote repository by the end of quiz time. Push all...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#quiz" title="Other posts from the Quiz category">Quiz</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-08-31T00:00:00-05:00">
+                    <span class="day">
+                        31
+                    </span>
+                    <span class="month-year">
+                        August 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/lecture/1-programming-history">
+                        Lecture 1: Programming history
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This lecture aims at providing a brief history of the development of computers and computer programming languages and their mutual interaction with rapid developments in natural sciences in the 20th century. Version Control System programming history Computer hardware Computer programs...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#lecture" title="Other posts from the Lecture category">Lecture</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-08-22T00:00:00-05:00">
+                    <span class="day">
+                        22
+                    </span>
+                    <span class="month-year">
+                        August 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/lecture/0-intro-data-science">
+                        Lecture 0: Introduction to Data Science
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>This lecture aims at providing a quick introduction to foundations of Data Science, the Data Science job market, and the Data Science program of UTA.
+
+
+  intro-data-science
+
+</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#lecture" title="Other posts from the Lecture category">Lecture</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-08-22T00:00:00-05:00">
+                    <span class="day">
+                        22
+                    </span>
+                    <span class="month-year">
+                        August 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/homework/1-vcs">
+                        Homework 1: Version Control Using Git and Github
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>♣ Due Date: Monday September 19, 2022 9:00 AM. This homework aims at giving you some experience on how to work with Git and GitHub. Version-control using Git and GitHub ONLY part 1. Name the three historical types of Version...</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#homework" title="Other posts from the Homework category">Homework</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <article class="notepad-index-post post row">
+        <div class="small-12 medium-3 large-2 columns datetime">
+            <span class="notepad-post-meta">
+                <time datetime="2022-08-22T00:00:00-05:00">
+                    <span class="day">
+                        22
+                    </span>
+                    <span class="month-year">
+                        August 2022
+                    </span>
+                </time>
+            </span>
+        </div>
+        <div class="small-12 medium-9 large-10 columns">
+            <header class="notepad-post-header">
+                <h3 class="notepad-post-title">
+                    <a href="/IDS2022F/announcement/0-student-professor-connection-day">
+                        Announcement 0: Student-professor connection day
+                    </a>
+                </h3>
+            </header>
+            <section class="notepad-post-excerpt">
+                <p>On the first day of our class, we will try to get to know each other and I will attempt to describe my research work and educational background for you, as well as what we should expect from this course....</p>
+            </section>
+            
+                <div class="notepad-index-post-tags">
+                <a href="/IDS2022F/categories/index.html#announcement" title="Other posts from the Announcement category">Announcement</a>
+                    
+                </div>
+            
+        </div>
+    </article>
+	
+    <nav class="pagination" role="navigation">
+    
+    <span class="newer-posts faded"><i class="fa fa-chevron-left"></i> Newer</span>
+    
+
+    
+    <span class="page-number">Page 1 of 1</span>
+    	
+    	<span class="older-posts faded">Older <i class="fa fa-chevron-right"></i></span>
+    	
+	</nav>
+
+</main>
+    <footer class="notepad-site-footer">
+    <div class="copyright">
+         <!-- <section>Last updated 2022 / 10 / 23</section></br> -->
+         <section>Last updated Sunday, 23 Oct 2022 at 12:24 PM CST</section></br>
+         <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
+         <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
+         <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
+         <section>SEIR 365 | Arlington TX 76010</section></br>
+    </div>
+    <div class="social-icons">
+
+        
+        <a href="https://facebook.com/cdslab" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-facebook fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+        <a href="https://github.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-github fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+
+        
+        <a href="https://instagram.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-instagram fa-stack-1x"></i>
+            </span>
+        </a>
+        
+
+        
+        <a href="https://medium.com/cdslab" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-medium fa-stack-1x"></i>
+                <!--
+                -->
+            </span>
+        </a>
+        
+
+        
+        <a href="https://twitter.com/cdslaborg" target="_blank">
+            <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x fa-inverse"></i>
+                <i class="fa fa-twitter fa-stack-1x"></i>
+            </span>
+        </a>
+        
+        
+<div style="color: #000000; float: none; width: 100%; padding-top: 1rem;">
+    <span style="font-size:0.8em">visitor count: 
+        <script type="text/javascript">
+            var sc_project=12067697; 
+            var sc_invisible=0; 
+            var sc_security="879eb905"; 
+            var sc_text=3; 
+            var scJsHost = "https://";
+            document.write("<sc"+"ript type='text/javascript' src='" + scJsHost + 
+            "statcounter.com/counter/counter.js'></"+"script>");
+        </script>
+    </span>
+</div>
+
+
+    </div>
+    <div class="cf"></div>
+</footer>
+
+<!--dynamic page header-->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="/IDS2022F/assets/js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+  <script src="/IDS2022F/assets/js/vendor/modernizr.js"></script>
+  <script src="/IDS2022F/assets/js/foundation.min.js"></script>
+  
+  <script src="/IDS2022F/assets/js/notepad.js"></script>
+  <script src="/IDS2022F/assets/js/scripts.min.js"></script>
+  <script src="/IDS2022F/assets/js/vendor/nprogress.js"></script>
+  
+  <script>
+    $(document).foundation();
+  </script>
+  <script type='text/javascript'>console.log("N/A");</script>
+  <script type='text/javascript'>console.log("https://www.cdslab.org/");</script>
+
+<!--header anchor links-->
+<script src="/IDS2022F/assets/js/autoAnchorLink.js"></script>
+
+<!-- <script src="/IDS2022F/assets/js/prismOkaidia.js"></script>
+<script src="/IDS2022F/assets/js/prismTwilight.js"></script>
+<script src="/IDS2022F/assets/js/prismDefault.js"></script>
+ -->
+<script src="/IDS2022F/assets/js/prismCoy.js"></script>  
+</body>
+</html>
