@@ -7,13 +7,106 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-10-28T13:53:04-05:00</updated>
+<updated>2022-11-02T00:24:59-05:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 4: Inference and Logic]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/quiz/4-logic"/>
+  <id>http:/IDS2022F/quiz/4-logic</id>
+  <published>2022-11-02T00:00:00-05:00</published>
+  <updated>2022-11-02T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.
+
+The following figure illustrates the grade distribution for this quiz.
+&lt;figure&gt;
+    &lt;img src=&quot;http:/IDS2022F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Scientific Inference and Logic.&lt;br /&gt;
+Don’t forget to push your answers to your remote repository by the end of quiz time.&lt;br /&gt;
+Push all your answers to &lt;strong&gt;quiz/4/&lt;/strong&gt; folder in your Github project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name and describe briefly the steps involved in a scientific inference.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the relationship between data and reality? Can we observe reality? &lt;br /&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;: Recall the discussions we had early in the semester during the first lecture series. Remember the pyramid of scientific inference.)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the difference between model validation and calibration?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the three pillars of science.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Describe three different &lt;strong&gt;major&lt;/strong&gt; applications of the third pillar of science with respect to the first two.&lt;br /&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;: Recall the discussions we had early in the semester during the first lecture series. Where and how could the third pillar replace the other pillars?)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name the two different categories of logical reasoning and provide and example of each class.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is logical implication the same as physical causation? Explain with an example.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Who is the Boolean algebra named after?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Represent the logical conjunction via a Venn Diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Represent the logical disjunction via a Venn Diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What does it mean if two propositions have the same &lt;strong&gt;truth value&lt;/strong&gt;?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Display the logical implication $A \Rightarrow B$ via a Venn diagram.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recall the Boolean algebra’s fundamental identities. Show that,&lt;br /&gt;
+&lt;br /&gt;
+\(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;. Show, via Venn diagrams, that $\overline{A + B} \not\equiv \overline{A}~+~\overline{B}$.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/quiz/4-logic&quot;&gt;Quiz 4: Inference and Logic&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 02, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>

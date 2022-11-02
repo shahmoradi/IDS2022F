@@ -2,6 +2,11 @@
 callback([
 
   {
+    "text": "Quiz 4: Inference and Logic",
+    "href": "/IDS2022F/quiz/4-logic"
+  } ,
+
+  {
     "text": "Quiz 3: Data Visualization",
     "href": "/IDS2022F/quiz/data-vis"
   } ,

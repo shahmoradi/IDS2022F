@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 4: Inference and Logic",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/quiz/4-logic",
+		  "date"       : "2022-11-02 00:00:00 -0500",
+		  "shortdate"  : "November 02, 2022"
+		} ,
+	
+		{
 		  "title"      : "Lecture 3: Logic and Probability Theory",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/lecture/3-logic.probability",
