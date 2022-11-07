@@ -7,13 +7,45 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-11-06T19:27:58-06:00</updated>
+<updated>2022-11-07T01:26:23-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Homework 5: Logic and Probability Theory II]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/homework/5-logic-probability-theory"/>
+  <id>http:/IDS2022F/homework/5-logic-probability-theory</id>
+  <published>2022-11-05T00:00:00-05:00</published>
+  <updated>2022-11-05T00:00:00-05:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;p&gt;♣ &lt;strong&gt;Due Date: Monday Nov 14, 2022 9:00 AM&lt;/strong&gt;. This homework aims at giving you some experience with logical thinking and algebra.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-1d/logic-functions-1d&quot; target=&quot;_blank&quot;&gt;Logic functions with 1 input&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-2d/logic-functions-2d&quot; target=&quot;_blank&quot;&gt;Logic functions with 2 input&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-operations/logic-functions-operations&quot; target=&quot;_blank&quot;&gt;Logic functions in terms of logic functions&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-fundamental-operations/logic-fundamental-operations&quot; target=&quot;_blank&quot;&gt;The fundamental logical operators&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-bayes-rule-proof-venn-disgram/probability-bayes-rule-proof-venn-disgram&quot; target=&quot;_blank&quot;&gt;The proof of Bayes’ Rule via Venn diagram&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-correspondence-with-common-sense/probability-correspondence-with-common-sense&quot; target=&quot;_blank&quot;&gt;Probability Theory: correspondence with commonsense&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-desiderata/probability-desiderata&quot; target=&quot;_blank&quot;&gt;The fundamental desiderata of Probability Theory&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/probability-schools-of-thought/probability-schools-of-thought&quot; target=&quot;_blank&quot;&gt;The major schools of thought in Probability Theory&lt;/a&gt;.&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/homework/5-logic-probability-theory&quot;&gt;Homework 5: Logic and Probability Theory II&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 05, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
