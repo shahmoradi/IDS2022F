@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-11-02T00:24:59-05:00</updated>
+<updated>2022-11-06T19:27:58-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -54,52 +54,110 @@ Push all your answers to &lt;strong&gt;quiz/4/&lt;/strong&gt; folder in your Git
 &lt;ol&gt;
   &lt;li&gt;
     &lt;p&gt;Name and describe briefly the steps involved in a scientific inference.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Observational data collection and reduction.&lt;/li&gt;
+      &lt;li&gt;Hypothesis formation.&lt;/li&gt;
+      &lt;li&gt;Calibration.&lt;/li&gt;
+      &lt;li&gt;Validation.&lt;/li&gt;
+      &lt;li&gt;Prediction.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the relationship between data and reality? Can we observe reality? &lt;br /&gt;
 (&lt;strong&gt;Hint&lt;/strong&gt;: Recall the discussions we had early in the semester during the first lecture series. Remember the pyramid of scientific inference.)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Data is what we observe. Reality is what we never observed because it is always obfuscated with noise.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What is the difference between model validation and calibration?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Calibration is about finding the best-fit parameters of the model and validation is about validating the predictions of the model on a test dataset.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name the three pillars of science.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Theory, Experiment, Computation.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Describe three different &lt;strong&gt;major&lt;/strong&gt; applications of the third pillar of science with respect to the first two.&lt;br /&gt;
 (&lt;strong&gt;Hint&lt;/strong&gt;: Recall the discussions we had early in the semester during the first lecture series. Where and how could the third pillar replace the other pillars?)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Simulations can serve as theory where not available.&lt;/li&gt;
+      &lt;li&gt;Simulations can serve as experimental data where not available.&lt;/li&gt;
+      &lt;li&gt;Simulations can be used to predict quantities that are not readily or currently measurable.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Name the two different categories of logical reasoning and provide and example of each class.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;/p&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Deductive reasoning: If A is true, then B is true.&lt;/li&gt;
+      &lt;li&gt;Plausible reasoning: If A is true, then B is more likely to be true.&lt;/li&gt;
+    &lt;/ol&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Is logical implication the same as physical causation? Explain with an example.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+No. “The sky is rainy” implies that “the sky is cloudy”. However, rainy sky did not physically cause the cloudy sky.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Who is the Boolean algebra named after?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+George Boole&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Represent the logical conjunction via a Venn Diagram.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Represent the logical disjunction via a Venn Diagram.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;What does it mean if two propositions have the same &lt;strong&gt;truth value&lt;/strong&gt;?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Display the logical implication $A \Rightarrow B$ via a Venn diagram.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Recall the Boolean algebra’s fundamental identities. Show that,&lt;br /&gt;
 &lt;br /&gt;
 \(\overline{C(A + B)} \equiv \overline{C} + \overline{A} ~ \overline{B}\)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;Show, via Venn diagrams, that $\overline{AB} \not\equiv \overline{A}~\overline{B}$.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
   &lt;li&gt;
     &lt;p&gt;&lt;strong&gt;Extra Credit&lt;/strong&gt;. Show, via Venn diagrams, that $\overline{A + B} \not\equiv \overline{A}~+~\overline{B}$.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+See the the lecture notes.&lt;/p&gt;
   &lt;/li&gt;
 &lt;/ol&gt;
 
