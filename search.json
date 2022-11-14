@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 5: Logic and probability theory",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/quiz/5-logic-probability",
+		  "date"       : "2022-11-14 00:00:00 -0600",
+		  "shortdate"  : "November 14, 2022"
+		} ,
+	
+		{
 		  "title"      : "Homework 5: Logic and Probability Theory II",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/homework/5-logic-probability-theory",

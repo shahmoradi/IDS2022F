@@ -7,13 +7,79 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-11-11T11:49:49-06:00</updated>
+<updated>2022-11-14T08:59:54-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Quiz 5: Logic and probability theory]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/quiz/5-logic-probability"/>
+  <id>http:/IDS2022F/quiz/5-logic-probability</id>
+  <published>2022-11-14T00:00:00-06:00</published>
+  <updated>2022-11-14T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.
+
+The following figure illustrates the grade distribution for this quiz.
+&lt;figure&gt;
+    &lt;img src=&quot;http:/IDS2022F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+--&gt;
+
+&lt;p&gt;This quiz aims at testing your basic knowledge of Boolean Logic and Probability Theory.
+Don’t forget to push your answers to your remote repository by the end of quiz time.
+Push all your answers to &lt;strong&gt;quiz/5/&lt;/strong&gt; folder in your GitHub project.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the range of a probability value?
+Is this range a convention or a necessity of the definition of probability?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Recall our class discussion on Probability Theory.
+Suppose you ask two equally-trustworthy people to look out the window and tell you what they see in the distance.
+They both observe an animal in the distance but their observation is different. One sees a horse and the other sees donkey.
+Which one of the observations would you trust? Why? Which principle of Probability Theory applies to this experiment and how?&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-a-nand-equivalence/logic/logic-a-nand-equivalence&quot; target=&quot;_blank&quot;&gt;NAND equivalence&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-nand-nor/logic/logic-nand-nor&quot; target=&quot;_blank&quot;&gt;Logic NAND and NOR&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/logic-functions-implication/logic-functions-implication&quot; target=&quot;_blank&quot;&gt;Logical implication in terms of logic functions&lt;/a&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Show via a Venn Diagram or a Truth Table, or explain by a logical argument that $(A \Rightarrow B) ~ \mathbf{\equiv} ~ (\overline{B} \Rightarrow \overline{A})$.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/quiz/5-logic-probability&quot;&gt;Quiz 5: Logic and probability theory&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on November 14, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
