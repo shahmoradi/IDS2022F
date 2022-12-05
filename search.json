@@ -1,6 +1,14 @@
 [
 	
 		{
+		  "title"      : "Quiz 6: Probability and Statistics",
+		  "category"   : "",
+		  "url"        : "/IDS2022F/quiz/6-probability-statistics",
+		  "date"       : "2022-12-05 00:00:00 -0600",
+		  "shortdate"  : "December 05, 2022"
+		} ,
+	
+		{
 		  "title"      : "Homework 6: Probability and Prediction",
 		  "category"   : "",
 		  "url"        : "/IDS2022F/homework/6-probability-prediction",
