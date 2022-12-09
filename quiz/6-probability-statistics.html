@@ -153,9 +153,9 @@ The following figure illustrates the grade distribution for this quiz.
 </figure>
 -->
 
-<p>This quiz aims at testing your basic knowledge of Probability Theory and Statistics as much as we have discussed in our lectures. 
-Don’t forget to push your answers to your remote repository by the end of quiz time. 
-Push all your answers to <strong>quiz/6/</strong> folder in your GitHub project.</p>
+<p>This quiz aims to test your basic knowledge of Probability Theory and Statistics as much as we discussed in our lectures. 
+Remember to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to your GitHub project’s <strong>quiz/6/</strong> folder.</p>
 
 <hr />
 <hr />
@@ -163,40 +163,132 @@ Push all your answers to <strong>quiz/6/</strong> folder in your GitHub project.
 <p><br /></p>
 
 <ol>
-  <li>Express the mathematical meaning of
+  <li>
+    <p>Express the mathematical meaning of
 \(\pi(A | B) ~.\)<br />
-(<strong>Hint</strong>: Simply write down how you would read this expression.)</li>
-  <li>Name four major historical definitions of Probability.</li>
-  <li>Which school(s) of thought define probability as the <em>degree of belief</em>?</li>
-  <li>Which school(s) of thought define probability as the <em>relative frequency of occurrence</em>?</li>
-  <li>Which probability definition(s), among those we have discussed in class, allow defining the probability of existence of God? Why?</li>
-  <li>Is Bayesian Inference a subset of the Frequentist Inference methods? Why?</li>
-  <li>Which inference methodology allows the inclusion of expert knowledge in the data analysis and decision making?</li>
-  <li>Why is Bayesian Probability Theory more popular among physicists and engineers and Frequentist Probability Theory more popular among Biologists and Social Scientists?<br />
-(<strong>Hint</strong>: Recall the example we discussed in class experiments that can never be repeated.)</li>
-  <li>When did the first modern definition of probability appear in history?</li>
-  <li>What kinds of uncertainty do exist in our experiments?</li>
-  <li>Suppose there is donkey outside the classroom. 
-I ask you what you observe it and tell me what you see. 
+(<strong>Hint</strong>: Write down how you would read this expression.)</p>
+
+    <p><strong>Answer:</strong><br />
+The probability of <code>A</code> given that <code>B</code> is true.</p>
+  </li>
+  <li>
+    <p>Name four major historical definitions of Probability.</p>
+
+    <p><strong>Answer:</strong><br />
+Classical, Frequentist, Bayesian, Propensity.</p>
+  </li>
+  <li>
+    <p>Which school(s) of thought define probability as the <em>degree of belief</em>?</p>
+
+    <p><strong>Answer:</strong><br />
+Classical, Bayesian.</p>
+  </li>
+  <li>
+    <p>Which school(s) of thought define probability as the <em>relative frequency of occurrence</em>?</p>
+
+    <p><strong>Answer:</strong><br />
+Frequentist (perhaps also: Propensity).</p>
+  </li>
+  <li>
+    <p>Which probability definition(s), among those we have discussed in class, allow defining the Probability of the existence of God?  Why?</p>
+
+    <p><strong>Answer:</strong><br />
+Classical and Bayesian, because God is not countable to compute its probability in terms of frequency. It requires a definition based on degree of belief.</p>
+  </li>
+  <li>
+    <p>Is Bayesian Inference a subset of the Frequentist Inference methods?  Why?</p>
+
+    <p><strong>Answer:</strong><br />
+No. The opposite is true. Because frequency can be always converted to degree of belief and also because Frequentist probability is the limit Bayesian probability when data is <strong>abundant</strong>.</p>
+  </li>
+  <li>
+    <p>Which inference methodology allows the inclusion of expert knowledge in data analysis and decision-making?</p>
+
+    <p><strong>Answer:</strong><br />
+Classical and Bayesian inference.</p>
+  </li>
+  <li>
+    <p>Why is Bayesian Probability Theory more popular among physicists and engineers and Frequentist Probability Theory more popular among Biologists and Social Scientists?<br />
+(<strong>Hint</strong>: Recall the example we discussed in class experiments that can never be repeated.)</p>
+
+    <p><strong>Answer:</strong><br />
+Because historically physicists and Engineers dealt with problems that lacked large amounts of data whereas biologists and sociologists often deal with sizable amounts of data.</p>
+  </li>
+  <li>
+    <p>When did the first modern definition of Probability appear in history?</p>
+
+    <p><strong>Answer:</strong><br />
+\(\sim1700\)</p>
+  </li>
+  <li>
+    <p>What kinds of uncertainty exist in our experiments?</p>
+
+    <p><strong>Answer:</strong><br />
+Epistemic (the kind that we can always reduce).</p>
+  </li>
+  <li>
+    <p>Suppose there is a donkey outside the classroom. 
+I ask you what you observe and tell me what you see. 
 You tell me that you see a horse. 
-What kind of uncertainty is involved in your observation?</li>
-  <li>The following figure depicts the average historical temperature variations of all land on earth 
-with respect to a reference average temperature around 1970’s (hence why it is called temperature anomaly).<br />
+What kind of uncertainty is involved in your observation?</p>
+
+    <p><strong>Answer:</strong><br />
+Epistemic (the kind that we can always reduce for example by better vision).</p>
+  </li>
+  <li>The following figure depicts the average historical temperature variations of all land on Earth 
+with respect to an average reference temperature around the 1970s (hence why it is called temperature anomaly).<br />
 <img src="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly.png" alt="Global land temperature anomaly of Earth" />
     <ul>
-      <li>Why is there so much variations in the temperature anomaly in the 18th and 19th centuries as opposed to the 20th century?<br />
-What kind of uncertainty is this variation mostly?</li>
-      <li>If you pay attention to the figure, you may realize that the temperature anomaly of Earth leveled off at around 1950’s.<br />
-What is likely cause of this phenomenon?</li>
-      <li>Given the trend that you observe in this graph, what is you rough estimate of temperature anomaly of Earth <strong>in Fahrenheits or Celsius</strong> at around 2050 (~28 years from now)?</li>
-      <li>Could this dataset be considered an example of a time series? Why?</li>
-      <li>If you were to assign a correlation value to the overall data in this graph, 
-would it be a positive correlation value or negative correlation value?</li>
+      <li>
+        <p>Why are there so much variations in the temperature anomaly in the 18th and 19th centuries as opposed to the 20th century?<br />
+What kind of uncertainty is this variation mostly?</p>
+
+        <p><strong>Answer:</strong><br />
+Inaccurate instruments and measurements.<br />
+Epistemic (the kind that we can always reduce for example by better measurements).</p>
+      </li>
+      <li>
+        <p>If you pay attention to the figure, you may realize that Earth’s temperature anomaly leveled off around the 1950s.<br />
+What is the likely cause of this phenomenon?</p>
+
+        <p><strong>Answer:</strong><br />
+Little pollution cause by human activity due to the end of the second world war.</p>
+      </li>
+      <li>
+        <p>Given the trend you observe in this graph, what is your rough estimate of the temperature anomaly of Earth <strong>in Fahrenheits or Celsius</strong> at around 2050 (~28 years from now)?</p>
+
+        <p><strong>Answer:</strong><br />
+Likely a temperature anomaly rise to 0.5 - 3 degrees of Celsius.</p>
+      </li>
+      <li>
+        <p>Could this dataset be considered an example of a time series?  Why?</p>
+
+        <p><strong>Answer:</strong><br />
+Yes, because it has a (temporal) direction.</p>
+      </li>
+      <li>
+        <p>If you were to assign a correlation value to the overall data in this graph, 
+would it be a positive correlation value or a negative correlation value?</p>
+
+        <p><strong>Answer:</strong><br />
+Positive, because the temperature anomaly increases with increasing temperature.</p>
+      </li>
     </ul>
   </li>
-  <li>Does correlation mean causation? Explain with an example.</li>
-  <li>What is the possible mathematical range of a correlation value?</li>
+  <li>
+    <p>Does correlation mean causation?  Explain with an example.</p>
+
+    <p><strong>Answer:</strong><br />
+No. For example, shorter days of the year (corresponding to winter season) are generally colder, but it is not the length of the day that causes cold weather or vice versa.</p>
+  </li>
+  <li>
+    <p>What is the possible mathematical range of a correlation value?</p>
+
+    <p><strong>Answer:</strong><br />
+-1 to +1.</p>
+  </li>
 </ol>
+
 
             </div>
         </article>
@@ -263,8 +355,8 @@ would it be a positive correlation value or negative correlation value?</li>
 
     <footer class="notepad-site-footer">
     <div class="copyright">
-         <!-- <section>Last updated 2022 / 12 / 05</section></br> -->
-         <section>Last updated Monday, 05 Dec 2022 at 02:04 AM CST</section></br>
+         <!-- <section>Last updated 2022 / 12 / 09</section></br> -->
+         <section>Last updated Friday, 09 Dec 2022 at 01:20 AM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>

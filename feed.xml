@@ -7,7 +7,7 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-12-05T02:04:00-06:00</updated>
+<updated>2022-12-09T01:20:34-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
@@ -42,9 +42,9 @@ The following figure illustrates the grade distribution for this quiz.
 &lt;/figure&gt;
 --&gt;
 
-&lt;p&gt;This quiz aims at testing your basic knowledge of Probability Theory and Statistics as much as we have discussed in our lectures. 
-Don’t forget to push your answers to your remote repository by the end of quiz time. 
-Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your GitHub project.&lt;/p&gt;
+&lt;p&gt;This quiz aims to test your basic knowledge of Probability Theory and Statistics as much as we discussed in our lectures. 
+Remember to push your answers to your remote repository by the end of quiz time. 
+Push all your answers to your GitHub project’s &lt;strong&gt;quiz/6/&lt;/strong&gt; folder.&lt;/p&gt;
 
 &lt;hr /&gt;
 &lt;hr /&gt;
@@ -52,40 +52,132 @@ Push all your answers to &lt;strong&gt;quiz/6/&lt;/strong&gt; folder in your Git
 &lt;p&gt;&lt;br /&gt;&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;Express the mathematical meaning of
+  &lt;li&gt;
+    &lt;p&gt;Express the mathematical meaning of
 \(\pi(A | B) ~.\)&lt;br /&gt;
-(&lt;strong&gt;Hint&lt;/strong&gt;: Simply write down how you would read this expression.)&lt;/li&gt;
-  &lt;li&gt;Name four major historical definitions of Probability.&lt;/li&gt;
-  &lt;li&gt;Which school(s) of thought define probability as the &lt;em&gt;degree of belief&lt;/em&gt;?&lt;/li&gt;
-  &lt;li&gt;Which school(s) of thought define probability as the &lt;em&gt;relative frequency of occurrence&lt;/em&gt;?&lt;/li&gt;
-  &lt;li&gt;Which probability definition(s), among those we have discussed in class, allow defining the probability of existence of God? Why?&lt;/li&gt;
-  &lt;li&gt;Is Bayesian Inference a subset of the Frequentist Inference methods? Why?&lt;/li&gt;
-  &lt;li&gt;Which inference methodology allows the inclusion of expert knowledge in the data analysis and decision making?&lt;/li&gt;
-  &lt;li&gt;Why is Bayesian Probability Theory more popular among physicists and engineers and Frequentist Probability Theory more popular among Biologists and Social Scientists?&lt;br /&gt;
-(&lt;strong&gt;Hint&lt;/strong&gt;: Recall the example we discussed in class experiments that can never be repeated.)&lt;/li&gt;
-  &lt;li&gt;When did the first modern definition of probability appear in history?&lt;/li&gt;
-  &lt;li&gt;What kinds of uncertainty do exist in our experiments?&lt;/li&gt;
-  &lt;li&gt;Suppose there is donkey outside the classroom. 
-I ask you what you observe it and tell me what you see. 
+(&lt;strong&gt;Hint&lt;/strong&gt;: Write down how you would read this expression.)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+The probability of &lt;code&gt;A&lt;/code&gt; given that &lt;code&gt;B&lt;/code&gt; is true.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Name four major historical definitions of Probability.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Classical, Frequentist, Bayesian, Propensity.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which school(s) of thought define probability as the &lt;em&gt;degree of belief&lt;/em&gt;?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Classical, Bayesian.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which school(s) of thought define probability as the &lt;em&gt;relative frequency of occurrence&lt;/em&gt;?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Frequentist (perhaps also: Propensity).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which probability definition(s), among those we have discussed in class, allow defining the Probability of the existence of God?  Why?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Classical and Bayesian, because God is not countable to compute its probability in terms of frequency. It requires a definition based on degree of belief.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Is Bayesian Inference a subset of the Frequentist Inference methods?  Why?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+No. The opposite is true. Because frequency can be always converted to degree of belief and also because Frequentist probability is the limit Bayesian probability when data is &lt;strong&gt;abundant&lt;/strong&gt;.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Which inference methodology allows the inclusion of expert knowledge in data analysis and decision-making?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Classical and Bayesian inference.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Why is Bayesian Probability Theory more popular among physicists and engineers and Frequentist Probability Theory more popular among Biologists and Social Scientists?&lt;br /&gt;
+(&lt;strong&gt;Hint&lt;/strong&gt;: Recall the example we discussed in class experiments that can never be repeated.)&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Because historically physicists and Engineers dealt with problems that lacked large amounts of data whereas biologists and sociologists often deal with sizable amounts of data.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;When did the first modern definition of Probability appear in history?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+\(\sim1700\)&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What kinds of uncertainty exist in our experiments?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Epistemic (the kind that we can always reduce).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Suppose there is a donkey outside the classroom. 
+I ask you what you observe and tell me what you see. 
 You tell me that you see a horse. 
-What kind of uncertainty is involved in your observation?&lt;/li&gt;
-  &lt;li&gt;The following figure depicts the average historical temperature variations of all land on earth 
-with respect to a reference average temperature around 1970’s (hence why it is called temperature anomaly).&lt;br /&gt;
+What kind of uncertainty is involved in your observation?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Epistemic (the kind that we can always reduce for example by better vision).&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The following figure depicts the average historical temperature variations of all land on Earth 
+with respect to an average reference temperature around the 1970s (hence why it is called temperature anomaly).&lt;br /&gt;
 &lt;img src=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly.png&quot; alt=&quot;Global land temperature anomaly of Earth&quot; /&gt;
     &lt;ul&gt;
-      &lt;li&gt;Why is there so much variations in the temperature anomaly in the 18th and 19th centuries as opposed to the 20th century?&lt;br /&gt;
-What kind of uncertainty is this variation mostly?&lt;/li&gt;
-      &lt;li&gt;If you pay attention to the figure, you may realize that the temperature anomaly of Earth leveled off at around 1950’s.&lt;br /&gt;
-What is likely cause of this phenomenon?&lt;/li&gt;
-      &lt;li&gt;Given the trend that you observe in this graph, what is you rough estimate of temperature anomaly of Earth &lt;strong&gt;in Fahrenheits or Celsius&lt;/strong&gt; at around 2050 (~28 years from now)?&lt;/li&gt;
-      &lt;li&gt;Could this dataset be considered an example of a time series? Why?&lt;/li&gt;
-      &lt;li&gt;If you were to assign a correlation value to the overall data in this graph, 
-would it be a positive correlation value or negative correlation value?&lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Why are there so much variations in the temperature anomaly in the 18th and 19th centuries as opposed to the 20th century?&lt;br /&gt;
+What kind of uncertainty is this variation mostly?&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Inaccurate instruments and measurements.&lt;br /&gt;
+Epistemic (the kind that we can always reduce for example by better measurements).&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you pay attention to the figure, you may realize that Earth’s temperature anomaly leveled off around the 1950s.&lt;br /&gt;
+What is the likely cause of this phenomenon?&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Little pollution cause by human activity due to the end of the second world war.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Given the trend you observe in this graph, what is your rough estimate of the temperature anomaly of Earth &lt;strong&gt;in Fahrenheits or Celsius&lt;/strong&gt; at around 2050 (~28 years from now)?&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Likely a temperature anomaly rise to 0.5 - 3 degrees of Celsius.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;Could this dataset be considered an example of a time series?  Why?&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Yes, because it has a (temporal) direction.&lt;/p&gt;
+      &lt;/li&gt;
+      &lt;li&gt;
+        &lt;p&gt;If you were to assign a correlation value to the overall data in this graph, 
+would it be a positive correlation value or a negative correlation value?&lt;/p&gt;
+
+        &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+Positive, because the temperature anomaly increases with increasing temperature.&lt;/p&gt;
+      &lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Does correlation mean causation? Explain with an example.&lt;/li&gt;
-  &lt;li&gt;What is the possible mathematical range of a correlation value?&lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Does correlation mean causation?  Explain with an example.&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+No. For example, shorter days of the year (corresponding to winter season) are generally colder, but it is not the length of the day that causes cold weather or vice versa.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;What is the possible mathematical range of a correlation value?&lt;/p&gt;
+
+    &lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt;&lt;br /&gt;
+-1 to +1.&lt;/p&gt;
+  &lt;/li&gt;
 &lt;/ol&gt;
+
 
   
   &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/quiz/6-probability-statistics&quot;&gt;Quiz 6: Probability and Statistics&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on December 05, 2022.&lt;/p&gt;</content>
