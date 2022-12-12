@@ -168,34 +168,138 @@ Once done, push all the changes and new additions to your project to your GitHub
 
 <p><br /></p>
 <ol>
-  <li>What is the difference between model validation and calibration?</li>
-  <li>what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization.</li>
-  <li><a href="https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring" target="_blank">Best visualization coloring</a>.</li>
-  <li><a href="https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales" target="_blank">Visualization color scales</a>.<br />
-What is each color-scale good for in Data Science?</li>
-  <li>Name the three pillars of science.</li>
-  <li>Is logical implication the same as physical causation? Explain with a real-world example.</li>
+  <li>
+    <p>What is the difference between model validation and calibration?</p>
+
+    <p><strong>Answer:</strong><br />
+Model calibration aims to find the unknown parameters of models.<br />
+Model validation aims to validate the <em>calibrated</em> model against new independent data.</p>
+  </li>
+  <li>
+    <p>what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization.</p>
+
+    <p><strong>Answer:</strong><br />
+All data visualizations map data values into quantifiable features of the resulting graphic. We refer to these features as aesthetics.<br />
+Examples include: position, shape, color, size, line width, line type, ….</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring" target="_blank">Best visualization coloring</a>.</p>
+
+    <p><strong>Answer:</strong><br />
+The second one is more appropriate because certain color-blinded people cannot distinguish red and green colors from each other.</p>
+  </li>
+  <li>
+    <p><a href="https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales" target="_blank">Visualization color scales</a>.<br />
+What is each color-scale good for in Data Science?</p>
+
+    <p><strong>Answer:</strong><br />
+a)  Qualitative color-scale: A means to distinguish discrete items or groups that do not have an intrinsic order, such as different countries on a map or different manufacturers of a certain product.<br />
+b)  Color can also be used to represent data values, such as income, temperature, or speed. In this case, we use a sequential color scale. Such a scale contains a sequence of colors that clearly indicate (i) which values are larger or smaller than which other ones and (ii) how distant two specific values are from each other. The second point implies that the color scale needs to be perceived to vary uniformly across its entire range.<br />
+c)  In some cases, we need to visualize the deviation of data values in one of two directions relative to a neutral midpoint. One straightforward example is a dataset containing both positive and negative numbers. We may want to show those with different colors, so that it is immediately obvious whether a value is positive or negative as well as how far in either direction it deviates from zero. The appropriate color scale in this situation is a diverging color scale.<br />
+d)  Color can also be an effective tool to highlight specific elements in the data. There may be specific categories or values in the dataset that carry key information about the story we want to tell, and we can strengthen the story by emphasizing the relevant figure elements to the reader. An easy way to achieve this emphasis is to color these figure elements in a color or set of colors that vividly stand out against the rest of the figure. This effect can be achieved with accent color scales, which are color scales that contain both a set of subdued colors and a matching set of stronger, darker, and/or more saturated colors.</p>
+  </li>
+  <li>
+    <p>Name the three pillars of science.</p>
+
+    <p><strong>Answer:</strong><br />
+Theory, Experiment, Computation.</p>
+  </li>
+  <li>
+    <p>Is logical implication the same as physical causation? Explain with a real-world example.</p>
+
+    <p><strong>Answer:</strong><br />
+No. If it is rainy, then it is cloudy, but rain does not cause clouds.</p>
+  </li>
   <li>Suppose we have fit the following red-line to the following blue dataset representing the global temperature increase of Earth over the past centuries.<br />
 <img src="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly2050.png" alt="global land temperature of Earth" />
     <ol>
-      <li>Is this visually a good fit in your opinion? Why?</li>
-      <li>What type of uncertainty dominates this dataset in the early years (before 1850)?</li>
-      <li>Is the trend seen in this dataset an example of positive correlation or negative correlation?</li>
-      <li>Could this dataset be classified as timeseries data? Why?</li>
-      <li>Download <a href="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/1880_2020.csv">this dataset</a> visualized above.<br />
-Then, open the file in Excel and compute the average temperature anomaly over all dates available in the file and report the single average value here.</li>
+      <li>
+        <p>Is this visually a good fit in your opinion? Why?</p>
+
+        <p><strong>Answer:</strong><br />
+No. It is very bad fit to the early years of data.</p>
+      </li>
+      <li>
+        <p>What type of uncertainty dominates this dataset in the early years (before 1850)?</p>
+
+        <p><strong>Answer:</strong><br />
+Epistemic (due to measurement and instrument uncertainties).</p>
+      </li>
+      <li>
+        <p>Is the trend seen in this dataset an example of positive correlation or negative correlation?</p>
+
+        <p><strong>Answer:</strong><br />
+positive.<br />
+Because anomaly increases with temperature.</p>
+      </li>
+      <li>
+        <p>Could this dataset be classified as timeseries data? Why?</p>
+
+        <p><strong>Answer:</strong><br />
+Yes, because it is a temperature as a function of time.</p>
+      </li>
+      <li>
+        <p>Download <a href="https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/1880_2020.csv">this dataset</a> visualized above.<br />
+Then, open the file in Excel and compute the average temperature anomaly over all dates available in the file and report the single average value here.</p>
+
+        <p><strong>Answer:</strong><br />
+0.070925267</p>
+      </li>
     </ol>
   </li>
-  <li>Which school(s) of probability theory allow incorporation of expert (prior) knowledge in scientific inference?</li>
-  <li>When data is scarce, which school of probability theory is the most useful for scientific inference?</li>
-  <li>Which school of thought in Probability Theory cannot define or discuss the probability of existence of God? Why?</li>
-  <li>What is wrong in the following plot?<br />
-<img src="wrong.png" alt="wrong.png" /></li>
-  <li>Why is everything represented by integers in computers?</li>
-  <li>Name an ancestor programming language of C.</li>
-  <li>Name the first high-level programming language in computer history.</li>
-  <li>What kind of data set can be best visualized in polar coordinates?</li>
+  <li>
+    <p>Which school(s) of probability theory allow incorporation of expert (prior) knowledge in scientific inference?</p>
+
+    <p><strong>Answer:</strong><br />
+Bayesian.</p>
+  </li>
+  <li>
+    <p>When data is scarce, which school of probability theory is the most useful for scientific inference?</p>
+
+    <p><strong>Answer:</strong><br />
+Bayesian.</p>
+  </li>
+  <li>
+    <p>Which school of thought in Probability Theory cannot define or discuss the probability of existence of God? Why?</p>
+
+    <p><strong>Answer:</strong><br />
+Frequentist.<br />
+Because it defines probability as the relative occurrence of phenomena.<br />
+God is not a countable concept.</p>
+  </li>
+  <li>
+    <p>What is wrong in the following plot?<br />
+<img src="wrong.png" alt="wrong.png" /></p>
+
+    <p><strong>Answer:</strong><br />
+Age cannot be negative.</p>
+  </li>
+  <li>
+    <p>Why is everything represented by integers in computers?</p>
+
+    <p><strong>Answer:</strong><br />
+Because computers can only work with the presence or absence of electric current for signaling.</p>
+  </li>
+  <li>
+    <p>Name an ancestor programming language of C.</p>
+
+    <p><strong>Answer:</strong><br />
+B.</p>
+  </li>
+  <li>
+    <p>Name the first high-level programming language in computer history.</p>
+
+    <p><strong>Answer:</strong><br />
+Fortran.</p>
+  </li>
+  <li>
+    <p>What kind of data set can be best visualized in polar coordinates?</p>
+
+    <p><strong>Answer:</strong><br />
+periodic data.</p>
+  </li>
 </ol>
+
 
             </div>
         </article>
@@ -263,7 +367,7 @@ Then, open the file in Excel and compute the average temperature anomaly over al
     <footer class="notepad-site-footer">
     <div class="copyright">
          <!-- <section>Last updated 2022 / 12 / 12</section></br> -->
-         <section>Last updated Monday, 12 Dec 2022 at 01:59 AM CST</section></br>
+         <section>Last updated Monday, 12 Dec 2022 at 01:16 PM CST</section></br>
          <section>All content exclusively maintained by <a href=https://www.shahmoradi.org target="_blank">Amir Shahmoradi</a> <!-- &copy;--> </section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/physics/" target="_blank">Department of Physics | Data Science Program</a></section></br>
          <section><a class="icon-ghost" href="https://www.uta.edu/" target="_blank">The University of Texas at Arlington</a></section></br>
