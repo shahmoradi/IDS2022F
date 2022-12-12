@@ -7,13 +7,88 @@
 <generator uri="https://github.com/mojombo/jekyll">Jekyll</generator>
 <link rel="self" type="application/atom+xml" href="http:/IDS2022F/feed.xml" />
 <link rel="alternate" type="text/html" href="http:/IDS2022F/" />
-<updated>2022-12-12T01:28:35-06:00</updated>
+<updated>2022-12-12T01:59:37-06:00</updated>
 <id>http:/IDS2022F/</id>
 <author>
   <name>Amir Shahmoradi</name>
   <uri>http:/IDS2022F/</uri>
   <email>shahmoradi@utexas.edu</email>
 </author>
+
+
+<entry>
+  <title type="html"><![CDATA[Final Exam]]></title>
+  <link rel="alternate" type="text/html" href="http:/IDS2022F/exam/1-final"/>
+  <id>http:/IDS2022F/exam/1-final</id>
+  <published>2022-12-12T00:00:00-06:00</published>
+  <updated>2022-12-12T00:00:00-06:00</updated>
+  <author>
+    <name>Amir Shahmoradi</name>
+    <uri>http:/IDS2022F</uri>
+    <email>shahmoradi@utexas.edu</email>
+  </author>
+  
+  <content type="html">
+  
+    &lt;!--
+This is the solution to [Quiz 1: Problems - Version control system](1-problems-version-control-system.html){:target=&quot;_blank&quot;}.
+
+The following figure illustrates the grade distribution for this quiz.
+&lt;figure&gt;
+    &lt;img src=&quot;http:/IDS2022F/quiz/gradeDist/gradeHistQuiz1.png&quot; width=&quot;700&quot;&gt;
+    &lt;figcaption style=&quot;text-align:center&quot;&gt;
+        Maximum possible points is 1.
+    &lt;/figcaption&gt;
+&lt;/figure&gt;
+[](){:target=&quot;_blank&quot;}
+1.  How would you distinguish exponential behavior vs. power-law behavior (function) in a 2-dimensional plot like [this one](https://www.cdslab.org/python/notes/preliminary-foundations/programming-history/wordFreq.png){:target=&quot;_blank&quot;}?
+1.  What is the major difference between the DBSCAN and Kmeans clustering algorithm? (naming one or two differences is enough)  
+1.  What are the major differences between the supervised and unsupervised learning algorithms?  
+1.  Name (at least) three types of clustering techniques.  
+--&gt;
+
+&lt;p&gt;This is the final exam of DATA 1301.&lt;br /&gt;
+Create a folder named &lt;code&gt;exam/final/&lt;/code&gt; in the root directory of your GitHub repository for this course (if you have not done so already as part of HW 1).&lt;br /&gt;
+Write down all of your answers in &lt;code&gt;README.md&lt;/code&gt; file inside this &lt;code&gt;exam&lt;/code&gt; folder.&lt;br /&gt;
+Once done, push all the changes and new additions to your project to your GitHub repository for this course.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;What is the difference between model validation and calibration?&lt;/li&gt;
+  &lt;li&gt;what are aesthetics in data visualization? Name a few aesthetics that can appear in a data visualization.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/visualization-coloring/visualization-coloring&quot; target=&quot;_blank&quot;&gt;Best visualization coloring&lt;/a&gt;.&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cdslab.org/recipes/programming/vis-colorscales/vis-colorscales&quot; target=&quot;_blank&quot;&gt;Visualization color scales&lt;/a&gt;.&lt;br /&gt;
+What is each color-scale good for in Data Science?&lt;/li&gt;
+  &lt;li&gt;Name the three pillars of science.&lt;/li&gt;
+  &lt;li&gt;Is logical implication the same as physical causation? Explain with a real-world example.&lt;/li&gt;
+  &lt;li&gt;Suppose we have fit the following red-line to the following blue dataset representing the global temperature increase of Earth over the past centuries.&lt;br /&gt;
+&lt;img src=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-maxlikelihood/GlobalLandTemperatureAnomaly2050.png&quot; alt=&quot;global land temperature of Earth&quot; /&gt;
+    &lt;ol&gt;
+      &lt;li&gt;Is this visually a good fit in your opinion? Why?&lt;/li&gt;
+      &lt;li&gt;What type of uncertainty dominates this dataset in the early years (before 1850)?&lt;/li&gt;
+      &lt;li&gt;Is the trend seen in this dataset an example of positive correlation or negative correlation?&lt;/li&gt;
+      &lt;li&gt;Could this dataset be classified as timeseries data? Why?&lt;/li&gt;
+      &lt;li&gt;Download &lt;a href=&quot;https://www.cdslab.org/recipes/programming/regression-predicting-future-global-land-temperature-excel/1880_2020.csv&quot;&gt;this dataset&lt;/a&gt; visualized above.&lt;br /&gt;
+Then, open the file in Excel and compute the average temperature anomaly over all dates available in the file and report the single average value here.&lt;/li&gt;
+    &lt;/ol&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Which school(s) of probability theory allow incorporation of expert (prior) knowledge in scientific inference?&lt;/li&gt;
+  &lt;li&gt;When data is scarce, which school of probability theory is the most useful for scientific inference?&lt;/li&gt;
+  &lt;li&gt;Which school of thought in Probability Theory cannot define or discuss the probability of existence of God? Why?&lt;/li&gt;
+  &lt;li&gt;What is wrong in the following plot?&lt;br /&gt;
+&lt;img src=&quot;wrong.png&quot; alt=&quot;wrong.png&quot; /&gt;&lt;/li&gt;
+  &lt;li&gt;Why is everything represented by integers in computers?&lt;/li&gt;
+  &lt;li&gt;Name an ancestor programming language of C.&lt;/li&gt;
+  &lt;li&gt;Name the first high-level programming language in computer history.&lt;/li&gt;
+  &lt;li&gt;What kind of data set can be best visualized in polar coordinates?&lt;/li&gt;
+&lt;/ol&gt;
+
+  
+  &lt;p&gt;&lt;a href=&quot;http:/IDS2022F/exam/1-final&quot;&gt;Final Exam&lt;/a&gt; was originally published by Amir Shahmoradi at &lt;a href=&quot;http:/IDS2022F&quot;&gt;DATA 1301 - Fall 2022 - MWF 9:00-9:50 - Life Science Building (LS) 101 / Microsoft Teams Virtual Room&lt;/a&gt; on December 12, 2022.&lt;/p&gt;</content>
+</entry>
 
 
 <entry>
